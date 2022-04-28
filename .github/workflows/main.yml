@@ -34,3 +34,4 @@ jobs:
           folder: www # The folder the action should deploy.
           clean: true
           single-commit: true
+          GITHUB_TOKEN: ${{ secrets.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 }}   /* 注意：这行是新加的 */
